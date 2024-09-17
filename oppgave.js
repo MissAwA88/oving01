@@ -17,36 +17,41 @@ let myAge = 42;
     Lag en variabel som representerer ditt fornavn.
 */
 
-let myName = "Anne "; 
+let myName = "Anne Hilde "; 
 
 /*
     Oppgave: B
     Lag en variabel for å lagre poeng score i et spill
 */
 
-let score = 0; 
+let score = 100; 
 /*
     Oppgave: C
     Øk verdien av variabelen din fra oppgave B med 5 (dvs dersom den var 0 så skal den bli 5)
     NB! Du skal øke verdien, ikke bare sette den til 5 (husk +)
 */
 
-score +=5
+score += 5;
 
+// score = score + 5; 
 /*
     Oppgave: D
     Ta variabelen din fra oppgave B og gjør den 10 ganger større. 
 */
 
-score *=10 
+score *= 10 
+
+// score = score * 10;
 
 /*
     Oppgave: E
     Lag en variabel for å lagre et telefon nummer (bruk et fiktift nummer)
 */
 
-let housephoneNumber = "38046942";  //nummer med tekst (string ) datatype 
+const housephoneNumber = "38046942";  //nummer med tekst (string ) datatype 
 
+// const telefonNummer = "+47 872838738";
+// const phoneNumber = 113; 
 
 /*
     Oppgave: F
@@ -61,7 +66,11 @@ let newStudentAnne = true;  //Statement, Anne is indeed a student. True or false
     Her skal xxxx være hentet fra variabelen i oppgave A og xx fra variabelen i oppgave B
 */
 
-console.log ("Ayoooo player" +myName+"your amazing score is "+score);
+let greetPlayer = "Ayoooo gamer";
+let giveScore = "your score is";
+console.log(greetPlayer,myName,givescore,score);
+
+console.log ("Ayoooo Player" +myName+"your amazing score is "+score);
 
 /*
     Oppgave: H
@@ -70,3 +79,7 @@ console.log ("Ayoooo player" +myName+"your amazing score is "+score);
 */
 let highscore = score; 
 console.log ("highscore"); 
+
+// let highscore = 0;
+//highscore = score
+//
