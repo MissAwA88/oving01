@@ -45,7 +45,7 @@ score *=10
     Lag en variabel for å lagre et telefon nummer (bruk et fiktift nummer)
 */
 
-let housephoneNumber = "38046942";  // nummer med tekst (string ) datatype 
+let housephoneNumber = "38046942";  //nummer med tekst (string ) datatype 
 
 
 /*
@@ -53,7 +53,7 @@ let housephoneNumber = "38046942";  // nummer med tekst (string ) datatype
     Lag en variabel som representerer hvorvidt du er en student eller ikke.
 */
 
-let student
+let newStudentAnne = true;  //Statement, Anne is indeed a student. True or false 
 
 /*
     Oppgave: G
@@ -61,8 +61,12 @@ let student
     Her skal xxxx være hentet fra variabelen i oppgave A og xx fra variabelen i oppgave B
 */
 
+console.log ("Ayoooo player" +myName+"your amazing score is "+score);
+
 /*
     Oppgave: H
     Lag en variabel som skal representere høyest oppnåd score i et spill.
     Set verdien av denne nye variabelen til verdien av variabelen fra oppgave B
 */
+let highscore = score; 
+console.log ("highscore"); 
