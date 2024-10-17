@@ -84,6 +84,13 @@ for(let i = 10; i > 0; i--) {
 */
 console.log("Oppgave: E");
 
+for(let i = 0; i <= 100; i++){
+    let a = i/2; 
+    let b = Math.floor(a)
+    if(a-b == 0){
+        console.log(i)
+    }
+}
 
 /*
     Oppgave: F
@@ -93,10 +100,11 @@ console.log("Oppgave: F");
 
 const DICTIONARY = {
     hello:"Hei på deg",
-    howAreYou:"hvordan står det til?"
+    howAreYou:"hvordan står det til?",
+    goodQuestionsLatly:"Fått noen gode spørsmål i det siste?"
 }
 
-console.log(`${DICTIONARY.hello} Christian ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
+console.log(`${DICTIONARY.hello} "Christian" ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
 console.log(`${DICTIONARY.goodQuestionsLatly}`) //-> Fått noen gode spørsmål i det siste?
 
 
@@ -116,6 +124,6 @@ const DICTIONARY_ML = {
     }
 }
 
-console.log(`${DICTIONARY.en.hello} Christian ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY.en.hello} + "Christian" ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
 console.log(`${DICTIONARY.en.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
 
