@@ -100,12 +100,12 @@ console.log("Oppgave: F");
 
 const DICTIONARY = {
     hello:"Hei på deg",
-    howAreYou:"hvordan står det til?",
+    howAreYou:"Hvordan står det til?",
     goodQuestionsLatly:"Fått noen gode spørsmål i det siste?"
 }
 
-console.log(`${DICTIONARY.hello} "Christian" ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
-console.log(`${DICTIONARY.goodQuestionsLatly}`) //-> Fått noen gode spørsmål i det siste?
+console.log(`${DICTIONARY.hello} "Christian" ${DICTIONARY.howAreYou}"Hvordan står det til?" `); //-> Hei på deg Christian, hvordan står det til?
+console.log(`${DICTIONARY.goodQuestionsLatly}"Fått noen gode spørsmål i det siste?"`) //-> Fått noen gode spørsmål i det siste?
 
 
 /*
@@ -117,13 +117,18 @@ console.log("Oppgave: G");
 const DICTIONARY_ML = {
     no:{
         hello:"Hei på deg",
-        howAreYou:"hvordan står det til?"
-    },
+        howAreYou:"hvordan står det til?",
+        goodQuestionsLatly:"Fått noen gode spørsmål i det siste?"
+    }
     en:{
+        hei:"Hello",
+        hvaSkjer:"How are you?",
+        godeSporsmolforTiden:"Good questions lately?"
+        
 
     }
 }
 
-console.log(`${DICTIONARY.en.hello} + "Christian" ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.en.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
+console.log(`${DICTIONARY.en.hei} "Christian" ${DICTIONARY.en.hvaSkjer}"hvordan står det til?"`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY.en.godeSporsmolforTiden}"Fått noen gode spørsmål i det siste?"`) //-> Gotten anny good questions latly?
 
